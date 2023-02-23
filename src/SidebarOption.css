@@ -1,38 +1,34 @@
 .sidebarOption {
-    display: flex;
-    align-items: center;
-    font-size: 12px;
-    padding-left: 10px;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding-left: 10px;
+  cursor: pointer;
 }
 .sidebarOption:hover {
-    opacity: .9;
-    background-color: #340e36;
+  opacity: 0.9;
+  background-color: #340e36;
 }
 
 .sidebarOption__icon {
-    padding: 10px;
-    font-size: 15px !important;
+  padding: 10px;
+  font-size: 15px !important;
 }
-
 
 .sidebarOption__channel {
-    padding: 10px 0;
-   
+  padding: 10px 0;
 }
 
-
 .sidebarOption__hash {
-    padding: 14px;
-   
+  padding: 14px;
 }
 
 .sidebarOption > h3 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .sidebar > hr {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #49274b;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #49274b;
 }

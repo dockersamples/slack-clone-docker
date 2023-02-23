@@ -1,23 +1,19 @@
 body {
-
   --slack-color: #3f0f40;
   overflow: hidden;
-
 }
 
 * {
   margin: 0;
 }
 
-
 .app__body {
-  display:flex;
+  display: flex;
   height: 100vh;
 }
 
-
 .chat {
-  flex: .7;
+  flex: 0.7;
   flex-grow: 1;
   overflow-y: scroll;
   padding-bottom: 150px;
@@ -30,7 +26,6 @@ body {
   font-size: 14px;
   padding: 20px;
   border-bottom: 1px solid lightgrey;
-
 }
 
 .chat__headerRight > p {
@@ -40,7 +35,6 @@ body {
 }
 
 .chat__headerRight > p > .MuiSvgIcon-root {
-
   margin-right: 5px !important;
   display: flex;
   align-items: center;

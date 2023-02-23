@@ -1,22 +1,21 @@
 .message {
-    display: flex;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
 
 .message > img {
-    height: 50px;
-    width: 50px;
-    object-fit: contain;
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
 }
 
 .message__info {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .message__timestamp {
-    color: gray;
-    font-weight: 300;
-    font-size: 11px;
-    
+  color: gray;
+  font-weight: 300;
+  font-size: 11px;
 }
